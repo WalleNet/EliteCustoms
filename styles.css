@@ -1,0 +1,135 @@
+html{
+    font-family: 'Exo 2', sans-serif;
+    margin:0;
+    padding:0;
+}
+.logo {
+    width:190px;
+    text-align:center;
+}
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 98%;
+    overflow: auto;
+}
+
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    transition:.2s;
+}
+
+.sidebar a.active {
+    background-color: #B22222;
+    color: white;
+}
+
+.sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+    transition:.2s;
+}
+#logo:hover{
+    background: none;;
+}
+
+.page-content{
+    margin-left:200px;
+}
+
+
+
+
+.standard_button {
+    background: none;
+    border: 2px rgb(187, 187, 187) solid;
+    border-radius: 4px;
+    padding: 10px;
+    transition:.5s;
+    color:gray;
+    font-weight: bold;
+    text-decoration: none;
+}
+.standard_button:hover {
+    background-color:rgb(70, 70, 70);
+    border-color:rgb(70, 70, 70);
+    transform: scale(1.1);
+    transition:.5s;
+    color:white;
+}
+
+
+
+
+
+/* Home Page */
+.home-bg-image{
+    background-image:url('pics/cover.jpg');
+    background-size:cover;
+    background-repeat:none;
+    background-attachment: fixed;
+    position:fixed;
+    width:100%;
+    height:100%;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+}
+.home-bg-text{
+    background-color:#B22222;
+    color:white;
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+/* Products Page */
+.text-strike {
+    position: relative;
+}
+.text-strike::after {
+    border-bottom: 0.125em solid red;
+    content: "";
+    left: 0;
+    margin-top: calc(0.125em / 2 * -1);
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+.products-head{
+    color:gray;
+    text-align:center;
+}
+.product-container {
+    height:40%;
+    width:25%;
+    margin:2%;
+    padding:2%;
+    background-color:#f1f1f1;
+    text-align:center;
+    transition:.5s;
+    display:inline-block;
+}
+.product-container:hover {
+    background-color:lightgray;
+    transition:.5s;
+}
+.product-pic {
+    width:70%;
+    height:70%;
+}
