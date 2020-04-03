@@ -55,6 +55,9 @@ html{
         text-align: center;
         float: none;
     }
+    .logo {
+        margin:auto;
+    }
 }
 
 #logo:hover{
@@ -233,6 +236,7 @@ html{
 @media screen and (max-width:700px){
     .about-founder{
         margin:10px;
+        text-align:center;
     }
 }
 .about-founder p {
