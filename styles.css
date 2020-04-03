@@ -41,6 +41,7 @@ html{
 
 .page-content{
     margin-left:200px;
+    padding-top:5px;
 }
 
 
@@ -132,4 +133,29 @@ html{
 .product-pic {
     width:70%;
     height:70%;
+}
+
+
+
+
+/* About */
+.about-head{
+    color:gray;
+    text-align:center;
+    font-size: larger;
+}
+.insta-btn{
+    font-size:30px;
+    border:none;
+    background: linear-gradient(45deg, #ffc422, #e626ff);
+    border-radius:10px;
+    padding:2px 5px;
+    color:white;
+}
+.about-founder{
+    padding:10px;
+    margin:100px;
+}
+.about-founder p {
+    font-size: larger;
 }
