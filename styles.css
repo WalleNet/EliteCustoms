@@ -159,3 +159,9 @@ html{
 .about-founder p {
     font-size: larger;
 }
+.about-founder h3 {
+    text-align:center;
+    margin-top:40px;
+    color:gray;
+    font-size: larger;
+}
