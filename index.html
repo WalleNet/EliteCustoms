@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Exo+2&display=swap" rel="stylesheet">
     <title>Home - Elite Customs</title>
 </head>
-<body>
+<body onload="openModal()">
     <div class="sidebar">
         <div class="logo">
             <a id="logo" href="index.html"><img src="pics/logo.png" style="width:100px;"/></a>
@@ -17,12 +17,34 @@
         <a href="about.html">About</a>
     </div>
     <div class="page-content">
+
+
+        <!-- Sale -->
+        <!-- The Modal -->
+        <div id="saleModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h1>MEGA SALE!</h1>
+            <p>For a Limited Time, Everything is 30% Off, Only at Elite Customs!</p>
+            <p>Ready to Start Shopping?</p>
+        </div>
+
+        </div>
+
+
+
+
         <div class="home-bg-image"></div>
 
         <div class="home-bg-text">
             <h1>Cleats like you've never seen before.</h1>
             <a href="products.html"><button class="standard_button" style="margin-top:20px;color:white;">Start Shopping</button></a>
         </div>
+
     </div>
+
+    <script type="text/javascript" src="main.js"></script>
 </body>
 </html>
