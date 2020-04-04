@@ -84,14 +84,13 @@ html{
     font-weight: bold;
     text-decoration: none;
 }
-.standard_button:hover {
+.standard_button:hover:not(.unclickable) {
     background-color:rgb(70, 70, 70);
     border-color:rgb(70, 70, 70);
     transform: scale(1.1);
     transition:.5s;
     color:white;
 }
-
 
 
 
