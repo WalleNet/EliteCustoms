@@ -244,7 +244,8 @@ html{
 }
 .product-container:hover {
     background-color:lightgray;
-    transition:.5s;
+    transform: scale(1.05);
+    transition:.25s;
 }
 .product-pic {
     width:230px;
