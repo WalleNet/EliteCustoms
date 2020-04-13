@@ -292,3 +292,11 @@ html{
     color:gray;
     font-size: larger;
 }
+.about-watermark{
+    color:lightgray;
+    text-align:center;
+    position: fixed;
+    bottom:0;
+    left:40%;
+    margin:0;
+}
