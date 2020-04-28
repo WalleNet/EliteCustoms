@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2&display=swap" rel="stylesheet">
+    <title>Home - Elite Customs</title>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <a id="logo" href="index.html"><img src="pics/logo.png" style="width:100px;"/></a>
+        </div>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a class="active" href="suggest.html">Suggest a Design</a>
+        <a href="about.html">About</a>
+    </div>
+    <div class="page-content">
+
+        <div class="suggest-head">
+            <h1>Have an idea? Tell us!</h1>
+        </div>
+
+        <div class="suggest-form">
+            <h2>Suggest a Design</h2>
+            <form action="mailto:rohan.dharwadker@gmail.com?subject=New%20Cleat%20Design%20Request" method="post" enctype="text/plain">
+                <div class="suggest-form-field">Name: <br><input style="width:15%" type="text" name="Full Name"></div>
+                <div class="suggest-form-field">E-mail: <br><input style="width:20%" type="text" name="Email"></div>
+                <div class="suggest-form-field">Design Request: <br><input style="width:50%" type="text" name="Request" size="50"></div>
+
+                <div class="suggest-form-field">Base: <br>
+                    <select name="Base">
+                        <option value="Any">Any</option>
+                        <option value="Nike Vapor Untouchable Speed">Nike Vapor Untouchable Speed</option>
+                        <option value="Nike Vapor Untouchable Speed 3">Nike Vapor Untouchable Speed 3</option>
+                        <option value="Nike Vapor Edge Varsity">Nike Vapor Edge Varsity</option>
+                        <option value="Adizero 7.0">Adizero 7.0</option>
+                    </select>
+                </div>
+
+                <input class="suggest-form-btn" id="suggest-form-submit" type="submit" value="Send Request"><br>
+                <input class="suggest-form-btn" id="suggest-form-reset" type="reset" value="Reset Form">
+            </form>
+        </div>
+
+    </div>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>

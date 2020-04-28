@@ -258,6 +258,56 @@ html{
 
 
 
+/* Suggest */
+.suggest-head{
+    text-align:center;
+    font-size: larger;
+    font-weight: bold;
+    color:gray;
+}
+.suggest-form{
+    text-align:center;
+    margin:5%;
+    background-color: #f1f1f1;
+    padding:2%;
+    border-radius: 100px;
+}
+.suggest-form-field {
+    margin:1%;
+}
+.suggest-form-field input,select {
+    height:30px;
+    margin:5px;
+    text-align:center;
+    padding:5px;
+    border:#B22222 solid 5px;
+    border-radius:10px;
+}
+.suggest-form-field select {
+    height:50px;
+}
+#suggest-form-submit{
+    padding:10px;
+    background-color:#B22222;
+    border: #B22222 solid 2px;
+    border-radius:20px;
+    color:white;
+    font-weight: bolder;
+    margin:5px;
+}
+#suggest-form-reset{
+    padding:10px;
+    background-color:white;
+    border: #B22222 solid 2px;
+    border-radius:20px;
+    color:#B22222;
+    font-weight: bolder;
+    margin:5px;
+}
+
+
+
+
 
 /* About */
 .about-head{
