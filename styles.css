@@ -51,7 +51,13 @@ html{
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 555px){
+    .logo {
+        display:none;
+    }
+}
+
+@media screen and (max-width: 420px) {
     .sidebar a {
         text-align: center;
         float: none;
@@ -186,7 +192,7 @@ html{
         left:50%;
     }
 }
-@media screen and (max-width:400px){
+@media screen and (max-width:420px){
     .home-bg-text{
         width:80%;
         left:50%;
@@ -268,6 +274,31 @@ html{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Suggest */
 .suggest-head{
     text-align:center;
@@ -296,6 +327,15 @@ html{
 .suggest-form-field select {
     height:50px;
 }
+#suggest-name{
+    width:15%;
+}
+#suggest-email{
+    width:20%;
+}
+#suggest-design{
+    width:50%;
+}
 #suggest-form-submit{
     padding:10px;
     background-color:#B22222;
@@ -314,6 +354,39 @@ html{
     font-weight: bolder;
     margin:5px;
 }
+@media screen and (max-width:1100px){
+    #suggest-name,#suggest-email,#suggest-design{
+        width:90%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
