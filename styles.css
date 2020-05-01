@@ -227,6 +227,17 @@ html{
     color:gray;
     text-align:center;
 }
+.products-suggest{
+    text-align:center;
+    margin:2%;
+}
+.products-suggest a {
+    font-size:large;
+    font-weight: bold;
+    color:black;
+    text-decoration: none;
+    border-bottom:3px solid black;
+}
 .product-container {
     height:40%;
     width:25%;
